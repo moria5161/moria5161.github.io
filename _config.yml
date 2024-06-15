@@ -26,8 +26,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Master Student"
   location         : "Xiamen, Fujian, China"
-  employer         : # "Red Brick University"
-  uri              : # URL
+  employer         : 
+  uri              : 
   email            : "zhangnannan@stu.xmu.edu.cn" 
 
   # Academic websites
