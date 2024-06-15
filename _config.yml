@@ -21,8 +21,8 @@ repository               : "moria5161/moria5161.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "self_profile.png"
   name             : "Nannan Zhang"
+  avatar           : "self_profile.png"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
