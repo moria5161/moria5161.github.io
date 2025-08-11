@@ -21,4 +21,4 @@ Research interests
 
 Recent News
 ======
-* Update and maintain the [Rmancloud]((https://ramancloud.xmu.edu.cn/)) website:Comprehensively focus on noise reduction and background correction 
+* Update and maintain the [Rmancloud](https://ramancloud.xmu.edu.cn) website:Comprehensively focus on noise reduction and background correction 
