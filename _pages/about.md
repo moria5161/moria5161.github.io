@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master student at School of Chemistry and Chemical Engineering, Xiamen University, under the supervision of Professor Bin Ren (https://bren.xmu.edu.cn).
+I am a Master student at School of Chemistry and Chemical Engineering, Xiamen University, under the supervision of Professor [Bin Ren](https://bren.xmu.edu.cn).
 I received my Bachelor's degree in Applied Chemistry from Nanjing University of Technology in 2023.
 
 Research interests
@@ -21,4 +21,4 @@ Research interests
 
 Recent News
 ======
-* Update and maintain the Rmancloud website:Comprehensively focus on noise reduction and background correction (https://ramancloud.xmu.edu.cn/)
+* Update and maintain the [Rmancloud]((https://ramancloud.xmu.edu.cn/)) website:Comprehensively focus on noise reduction and background correction 
