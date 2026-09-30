@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Nannan Zhang"
 title_separator          : "-"
 name                     : &name "Nannan Zhang"
-description              : &description "personal description"
+description              : &description "Nannan Zhang — Ph.D. student in Artificial Intelligence at Xiamen University, advised by Prof. Bin Ren."
 url                      : https://moria5161.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "moria5161/moria5161.github.io"
@@ -24,7 +24,7 @@ author:
   name             : "Nannan Zhang"
   avatar           : "self_profile.png"
   pronouns         : # example: "she/her"  
-  bio              : "Master Student"
+  bio              : "Ph.D. Student in Artificial Intelligence"
   location         : "Xiamen, Fujian, China"
   employer         : 
   uri              : 
@@ -171,6 +171,36 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - _publications
+  - _posts
+  - _drafts
+  - _talks
+  - _teaching
+  - _portfolio
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - markdown_generator
+  - CONTRIBUTING.md
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
 keep_files:
   - .git
   - .svn
@@ -281,7 +311,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

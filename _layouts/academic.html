@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% unless page.permalink == '/' %}{{ page.title }} · {% endunless %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}<span class="name-dot" aria-hidden="true">✦</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/publications/' | relative_url }}" {% if page.permalink == '/publications/' %}aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/cv/' | relative_url }}" {% if page.permalink == '/cv/' %}aria-current="page"{% endif %}>CV</a>
+    </nav>
+  </div></header>
+  <main id="main" class="content">{{ content }}</main>
+  <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} {{ site.name }}</span><a href="https://github.com/{{ site.author.github }}">GitHub ↗</a></footer>
+</body>
+</html>
