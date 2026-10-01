@@ -28,7 +28,7 @@ nav a:hover, nav a[aria-current] { color: var(--accent); }
 nav a[aria-current] { box-shadow: 0 2px var(--green); }
 .content { max-width: 860px; margin: auto; padding: 4rem 2rem 3rem; }
 .profile-header { display: flex; align-items: center; gap: 2.25rem; margin-bottom: 2rem; }
-.profile-photo { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 5px solid var(--background); outline: 1px solid var(--border); flex-shrink: 0; }
+.profile-photo { width: 180px; height: 180px; object-fit: cover; object-position: 50% 10%; border-radius: 50%; border: 5px solid var(--background); outline: 1px solid var(--border); flex-shrink: 0; }
 h1, h2, h3, p { margin-top: 0; }
 h1 { font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.2; letter-spacing: -.045em; margin-bottom: .65rem; font-weight: 650; }
 .profile-role { margin-bottom: .25rem; font-size: 1.125rem; }

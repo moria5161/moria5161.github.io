@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <header class="profile-header">
-  <img class="profile-photo" src="{{ '/images/self_profile.png' | relative_url }}" alt="Nannan Zhang" width="180" height="180">
+  <img class="profile-photo" src="{{ '/images/profile-2026.png' | relative_url }}" alt="Nannan Zhang" width="180" height="180">
   <div>
     <h1>Nannan Zhang</h1>
     <p class="profile-role">Ph.D. student in Artificial Intelligence</p>
