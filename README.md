@@ -4,13 +4,17 @@ Personal academic website for [Nannan Zhang](https://moria5161.github.io), built
 
 ## Content
 
-- `_pages/about.md`: homepage, biography, research interests, and Ramancloud news.
-- `_pages/publications.md`: publications; currently “Coming soon.”
+- `_pages/about.md`: homepage, biography, publications, and education timeline.
+- `_pages/publications.md`: publication cards with graphical abstracts, author lists, and paper links.
 - `_pages/cv.md`: curriculum vitae.
+- `_data/publications.yml`: paper titles, author order, publication status, and links, verified against the linked arXiv and ACS records.
+- `_includes/publications.html`: publication cards shared by the homepage, Publications page, and CV.
+- `images/publications/`: paper thumbnails and the original Fast2Peak TOC supplied by the author. The JACS graphical abstract comes from the [Ren Research Group's 2026 publication list](https://bren.xmu.edu.cn/Publications1/Publications/a2026.htm).
 - `_includes/education.html`: education timeline shared by the homepage and CV.
 - `_includes/research-interests.html`: shared research interests.
 - `_config.yml`: name, email, GitHub account, and site metadata.
 - `assets/css/academic.css`: responsive academic theme.
+- `_includes/favicon.html`: shared browser and touch icons, generated from the circular homepage portrait; `/favicon.ico` provides a fallback for browsers.
 
 The education timeline records the 2023–2026 master's studies in Materials Engineering at Xiamen University's College of Chemistry and Chemical Engineering, and the Ph.D. in Artificial Intelligence at its Institute of Artificial Intelligence from 2026 onward. Both are advised by [Prof. Bin Ren](https://bren.xmu.edu.cn).
 

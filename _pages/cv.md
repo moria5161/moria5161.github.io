@@ -22,5 +22,5 @@ redirect_from:
 </section>
 <section class="section" aria-labelledby="publications">
   <h2 id="publications">Publications</h2>
-  <div class="empty-state"><p>Coming soon.</p></div>
+  {% include publications.html %}
 </section>

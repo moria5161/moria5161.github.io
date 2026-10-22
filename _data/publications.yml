@@ -1,0 +1,46 @@
+- id: fast2peak
+  title: "Fast2Peak: High-Fidelity Restoration Algorithm by Single-Pixel Masking towards Real-Time Spectral Measurements"
+  url: https://arxiv.org/abs/2610.29753
+  status: Preprint
+  status_class: preprint
+  first_author: true
+  authors:
+    - Nan-Nan Zhang
+    - Si-Heng Luo
+    - Xin-Di Pei
+    - Wen-Xuan Li
+    - Jun Wang
+    - Yi-Fan Bao
+    - Hao Ma
+    - Guo-Kun Liu
+    - Bin Ren
+  venue: "arXiv preprint arXiv:2610.29753"
+  year: 2026
+  image: /images/publications/fast2peak-toc.webp
+  image_width: 900
+  image_height: 900
+  image_alt: "Fast2Peak graphical abstract showing single-pixel masking, real-time spectral restoration, and cross-instrument generalization."
+
+- id: co-electrooxidation
+  title: "Visualizing the Site-Specific Kinetics and Terrace-to-Edge Migration of CO Electrooxidation on a Single Pd Nanocatalyst"
+  url: https://doi.org/10.1021/jacs.6c14102
+  status: Published
+  status_class: published
+  first_author: false
+  authors:
+    - Yi-Fan Bao
+    - Meng-Yuan Zhu
+    - Hao Ma
+    - Hong-Xuan Chen
+    - Nan-Nan Zhang
+    - Jia-Yi Wang
+    - Xin-Yu Lu
+    - Guo-Kun Liu
+    - Xiang Wang
+    - Bin Ren
+  venue: Journal of the American Chemical Society
+  year: 2026
+  image: /images/publications/co-electrooxidation-toc.webp
+  image_width: 1000
+  image_height: 526
+  image_alt: "Graphical abstract showing electrochemical tip-enhanced Raman spectroscopy of CO oxidation and migration on a Pd nanocatalyst."
