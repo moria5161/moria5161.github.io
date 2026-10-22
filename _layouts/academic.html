@@ -12,7 +12,6 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header"><div class="header-inner">
-    <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}<span class="name-dot" aria-hidden="true">✦</span></a>
     <nav aria-label="Main navigation">
       <a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>About</a>
       <a href="{{ '/publications/' | relative_url }}" {% if page.permalink == '/publications/' %}aria-current="page"{% endif %}>Publications</a>
@@ -20,6 +19,5 @@
     </nav>
   </div></header>
   <main id="main" class="content">{{ content }}</main>
-  <footer class="site-footer"><span>© {{ site.time | date: '%Y' }} {{ site.name }}</span><a href="https://github.com/{{ site.author.github }}">GitHub ↗</a></footer>
 </body>
 </html>

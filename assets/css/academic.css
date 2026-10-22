@@ -19,9 +19,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-
 .skip-link { position: absolute; top: -6rem; left: 1rem; padding: .5rem 1rem; background: var(--background); z-index: 10; }
 .skip-link:focus { top: .5rem; }
 .site-header { border-bottom: 1px solid var(--border); }
-.header-inner { max-width: 960px; margin: auto; padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-.site-name { font-weight: 650; color: var(--foreground); text-decoration: none; letter-spacing: -.03em; }
-.name-dot { color: var(--green); margin-left: .45rem; }
+.header-inner { max-width: 960px; margin: auto; padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: flex-end; gap: 1rem; }
 nav { display: flex; flex-wrap: wrap; gap: 1.75rem; font-size: .9375rem; }
 nav a { color: var(--muted); text-decoration: none; padding: .2rem 0; }
 nav a:hover, nav a[aria-current] { color: var(--accent); }
@@ -81,9 +79,9 @@ h2::after { content: ""; position: absolute; bottom: 0; left: 0; width: 2.3rem; 
 .timeline-body p:not(.institution) { color: var(--muted); font-size: .9375rem; }
 .timeline-body .degree-note { margin-bottom: .3rem; }
 .page-intro { color: var(--muted); margin-bottom: 2rem; }
-.site-footer { max-width: 796px; margin: auto; padding: 1.25rem 0 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .875rem; display: flex; justify-content: space-between; gap: 1rem; }
 @media (max-width: 600px) {
-  .header-inner { padding: 1rem 1.25rem; flex-direction: column; align-items: flex-start; gap: .65rem; }
+  /* Preserve the navigation and content positions after removing the site name. */
+  .header-inner { padding: 3.4rem 1.25rem 1rem; flex-direction: column; align-items: flex-start; gap: .65rem; }
   nav { gap: 1.5rem; }
   .content { padding: 2.25rem 1.25rem; }
   .profile-header { gap: 1.5rem; flex-direction: column; align-items: flex-start; }
@@ -93,12 +91,11 @@ h2::after { content: ""; position: absolute; bottom: 0; left: 0; width: 2.3rem; 
   .publication-thumbnail { height: 200px; }
   .timeline li { grid-template-columns: 1fr; gap: .5rem; }
   .timeline-date { padding-left: 1.5rem; }
-  .site-footer { margin: 0 1.25rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print {
   body { background: white; color: black; }
-  .site-header, .skip-link, .site-footer { display: none; }
+  .site-header, .skip-link { display: none; }
   .content { padding: 0; max-width: none; }
   .section, .timeline li, .publication-card { break-inside: avoid; }
   a { color: inherit; }
