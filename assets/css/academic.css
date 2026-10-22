@@ -53,6 +53,8 @@ h2::after { content: ""; position: absolute; bottom: 0; left: 0; width: 2.3rem; 
 .publication-body { min-width: 0; }
 .publication-badges { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .4rem; }
 .publication-badge { display: inline-block; padding: .08rem .6rem; border-radius: .35rem; background: #f1f1f3; color: #555464; font-size: .8125rem; line-height: 1.6; }
+.publication-badge--author { background: #eee8f5; color: var(--accent); }
+.publication-badge--published { background: #e7f0fa; color: #3b6485; }
 .publication-title { margin-bottom: .6rem; font-size: 1.125rem; font-weight: 650; line-height: 1.35; letter-spacing: -.015em; }
 .publication-title a { color: #477738; text-decoration: none; }
 .publication-title a:hover { text-decoration: underline; }
