@@ -44,3 +44,25 @@
   image_width: 1000
   image_height: 526
   image_alt: "Graphical abstract showing electrochemical tip-enhanced Raman spectroscopy of CO oxidation and migration on a Pd nanocatalyst."
+
+- id: suiren-1-0
+  title: "Suiren-1.0 Technical Report: A Family of Molecular Foundation Models"
+  url: https://arxiv.org/abs/2603.21942
+  status: Preprint
+  status_class: preprint
+  first_author: false
+  authors:
+    - Junyi An
+    - Xinyu Lu
+    - Yun-Fei Shi
+    - Li-Cheng Xu
+    - Nannan Zhang
+    - Chao Qu
+    - Yuan Qi
+    - Fenglei Cao
+  venue: "arXiv preprint arXiv:2603.21942"
+  year: 2026
+  image: /images/publications/suiren-1-0-toc.png
+  image_width: 1532
+  image_height: 806
+  image_alt: "Molecular representations, conformational energy and Boltzmann distributions, and ensemble-averaged molecular properties."
