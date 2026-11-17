@@ -66,3 +66,25 @@
   image_width: 1532
   image_height: 806
   image_alt: "Molecular representations, conformational energy and Boltzmann distributions, and ensemble-averaged molecular properties."
+
+- id: ead
+  title: "Equivariant Asynchronous Diffusion: An Adaptive Denoising Schedule for Accelerated Molecular Conformation Generation"
+  url: https://arxiv.org/abs/2603.10093
+  status: Preprint
+  status_class: preprint
+  first_author: false
+  # Author order follows the paper PDF; the abstract-page metadata differs.
+  authors:
+    - Junyi An
+    - Nan-Nan Zhang
+    - Yun-Fei Shi
+    - Zhijian Zhou
+    - Chao Qu
+    - Fenglei Cao
+    - Yuan Qi
+  venue: "arXiv preprint arXiv:2603.10093"
+  year: 2026
+  image: /images/publications/ead-toc.png
+  image_width: 1890
+  image_height: 545
+  image_alt: "Comparison of autoregressive generation, full-molecule diffusion, and equivariant asynchronous diffusion during training and sampling."
